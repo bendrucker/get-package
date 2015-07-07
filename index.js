@@ -2,10 +2,10 @@
 
 var getNpmPackage = require('package-json')
 var mothership = require('mothership')
-var validatePackageName = require('validate-npm-package-name')
 var ap = require('ap')
 var extend = require('xtend')
 var path = require('path')
+var isPackage = require('is-package')
 
 var applyDefaults = ap.partial(extend, {
   version: '',
@@ -36,9 +36,4 @@ module.exports = function getPackage (name, options, callback) {
     }
     callback(null, json)
   })
-}
-
-// if it's not a package, it's a path
-function isPackage (name) {
-  return validatePackageName(name).validForOldPackages
 }

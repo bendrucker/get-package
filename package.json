@@ -1,0 +1,35 @@
+{
+  "name": "get-package",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Get package.json from disk/npm depending on the path",
+  "license": "MIT",
+  "repository": "bendrucker/get-package",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "package.json",
+    "file",
+    "npm"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "ap": "^0.2.0",
+    "mothership": "^0.3.0",
+    "package-json": "^1.2.0",
+    "validate-npm-package-name": "^2.2.2",
+    "xtend": "^4.0.0"
+  }
+}

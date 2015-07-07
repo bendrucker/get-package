@@ -1,7 +1,7 @@
 {
   "name": "get-package",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get package.json from disk/npm depending on the path",
   "license": "MIT",
   "repository": "bendrucker/get-package",

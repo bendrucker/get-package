@@ -1,4 +1,4 @@
-# get-package [![Build Status](https://travis-ci.org/bendrucker/get-package.svg?branch=master)](https://travis-ci.org/bendrucker/get-package)
+# get-package [![Build Status](https://travis-ci.org/bendrucker/get-package.svg?branch=master)](https://travis-ci.org/bendrucker/get-package) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/get-package.svg)](https://greenkeeper.io/)
 
 > Get package.json from disk/npm depending on the path/name
 
